@@ -21,7 +21,9 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
   useEffect(() => {
     const fetchData = async (endpoint: string) => {
       try {
-        const response = await fetch(`http://localhost:8000${endpoint}`);
+        const response = await fetch(
+          `https://poised-robe-yak.cyclic.app/${endpoint}`
+        );
         if (!response.ok) {
           throw new Error(`Error! Status: ${response.status}`);
         }
