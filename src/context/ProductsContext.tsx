@@ -21,7 +21,7 @@ export const ProductsProvider: React.FC<Props> = ({ children }) => {
   useEffect(() => {
     const fetchData = async (endpoint: string) => {
       try {
-        const response = await fetch(`http://localhost:5002${endpoint}`);
+        const response = await fetch(`http://localhost:8000${endpoint}`);
         if (!response.ok) {
           throw new Error(`Error! Status: ${response.status}`);
         }
