@@ -34,13 +34,16 @@ const RegisterTwo = () => {
     try {
       event.preventDefault();
       setShowThirdScreen(true);
-      const response = await fetch("http://localhost:5001/users", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(newUser),
-      });
+      const response = await fetch(
+        "https://concerned-rose-basket-clam.cyclic.app/users",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(newUser),
+        }
+      );
 
       const userData = await response.json();
 

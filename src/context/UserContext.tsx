@@ -32,7 +32,7 @@ export const UserProvider = ({ children }: Props) => {
   const loginUser = async (email: string, password: string) => {
     try {
       const res = await fetch(
-        `http://localhost:5001/users?email=${email}&password=${password}`
+        `https://concerned-rose-basket-clam.cyclic.app/users?email=${email}&password=${password}`
       );
       const data = await res.json();
       if (data.length > 0) {
@@ -53,13 +53,16 @@ export const UserProvider = ({ children }: Props) => {
         const base64Image = await convertImageToBase64(body.img);
         body.img = base64Image;
       }
-      const response = await fetch(`http://localhost:5001/users/${userId}`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(body),
-      });
+      const response = await fetch(
+        `https://concerned-rose-basket-clam.cyclic.app/users/${userId}`,
+        {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(body),
+        }
+      );
 
       const userData = await response.json();
       setUser(userData);
