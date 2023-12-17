@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dane",
+      "lastname": "Majstorchev",
+      "email": "danem@gmail.com",
+      "password": "1234567",
+      "address": "ул. Гоце Делчев бр. 15",
+      "mobile": "070000000",
+      "bio": "",
+      "img": ""
+    }
+  ]
+}

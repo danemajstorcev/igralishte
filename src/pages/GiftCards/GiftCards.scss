@@ -1,0 +1,37 @@
+.gift-cards {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  .gift-cards-header {
+    color: var(--Black, #232221);
+    text-align: center;
+    font-family: Century;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: -0.242px;
+    margin-top: 32.57px;
+    margin-bottom: 24.62px;
+  }
+
+  .pick-price {
+    color: var(--Black, #232221);
+    text-align: center;
+    font-family: Century;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: -0.242px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+  }
+  .pink-buttons {
+   
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 73px;
+  }
+}

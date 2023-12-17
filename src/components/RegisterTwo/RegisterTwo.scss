@@ -1,0 +1,200 @@
+@import "../../style/colors.scss";
+
+.register-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $lightRibonPink;
+  position: relative;
+  .main-logo {
+    width: 180px;
+    width: 180px;
+    height: 38.446px;
+    flex-shrink: 0;
+    margin-top: 119px;
+    margin-bottom: 54px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    label {
+      color: $standardBlack;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 8px;
+    }
+    input {
+      width: 300px;
+      height: 40px;
+      border-radius: 8px;
+      border: 1px solid #a9a9a9;
+      background: rgba(196, 196, 196, 0);
+      margin-bottom: 16px;
+      &::placeholder {
+        padding-left: 12px;
+      }
+    }
+    p {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 56px;
+      span {
+        color: $black;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+  p {
+    width: 300px;
+    color: $black;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    span {
+      color: $black;
+      font-family: Inter;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration-line: underline;
+    }
+  }
+}
+.register-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $lightRibonPink;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  .main-logo {
+    width: 180px;
+    width: 180px;
+    height: 38.446px;
+    flex-shrink: 0;
+    margin-top: 119px;
+    margin-bottom: 54px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    .image-preview-container {
+      position: relative;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+      cursor: pointer;
+
+   
+    }
+    .image-placeholder {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-sizing: border-box;
+      background: rgba(0, 0, 0, 0.1);
+      position: absolute;
+    }
+.choose-img{
+  width: 82.473px;
+      height: 13.04px;
+      flex-shrink: 0;
+      color: $standardBlack;
+      align-self: center;
+      text-align: center;
+      font-family: Century;
+      font-size: 10.09px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      border-radius: 8.408px;
+      background: #e2e2e2;
+}
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    label {
+      color: $standardBlack;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 300px;
+      height: 40px;
+      border-radius: 8px;
+      border: 1px solid #a9a9a9;
+      background: rgba(196, 196, 196, 0);
+      margin-bottom: 16px;
+      &::placeholder {
+        padding-left: 12px;
+      }
+    }
+    textarea {
+      width: 300px;
+      height: 80px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border: 1px solid #a9a9a9;
+      background: rgba(196, 196, 196, 0);
+      margin-bottom: 18px;
+      &::placeholder {
+        padding-left: 12px;
+        padding-top: 12px;
+      }
+    }
+
+    .skip {
+      display: flex;
+      color: $black;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration-line: underline;
+      width: 80px;
+      background-color: transparent;
+      border: 0px;
+      margin-top: 16px;
+    }
+  }
+}

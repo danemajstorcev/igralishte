@@ -1,0 +1,56 @@
+@import "../../style/colors.scss";
+
+.carousel-with-small-pics {
+  height: 450px;
+  .slide-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 300px;
+      height: 400px;
+      flex-shrink: 0;
+    }
+    .slide-txt {
+      align-self: flex-start;
+      padding-left: 30px;
+      color: $black;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 33px;
+      letter-spacing: -0.242px;
+    }
+    .slide-price {
+      align-self: flex-start;
+      padding-left: 30px;
+      color: $black;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: -0.242px;
+    }
+  }
+  .carousel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    .small-images-wrapper {
+      img {
+        margin: 7px;
+      }
+    }
+    img {
+      width: 31px;
+      height: 31px;
+      flex-shrink: 0;
+      color: $black;
+    }
+  }
+}

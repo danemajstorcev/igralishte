@@ -1,0 +1,43 @@
+@import "../../style/colors.scss";
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $lightRibonPink;
+
+  .main-logo {
+    width: 180px;
+    width: 180px;
+    height: 38.446px;
+    flex-shrink: 0;
+    margin-top: 119px;
+    margin-bottom: 54px;
+  }
+  .no-txt-decoration {
+    text-decoration: none;
+  }
+  .log-in-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $black;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 233px;
+    margin-top: 24px;
+
+    span {
+      color: $fancyOlive;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration-line: underline;
+    }
+  }
+}

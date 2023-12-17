@@ -1,0 +1,86 @@
+@import "../../style/colors.scss";
+
+.favorites-and-cart-main-container {
+  padding: 0 30px;
+
+  .golden-line {
+    width: 300px;
+    height: 1px;
+    background: linear-gradient(
+      99deg,
+      #fff0bf -10.68%,
+      #efc990 18.14%,
+      #fdd292 43.87%,
+      rgba(240, 199, 73, 0.42) 81.17%,
+      #d4af37 100%
+    );
+    margin-bottom: 24px;
+  }
+
+  .favorites-wrapper {
+    width: 100%;
+    margin-bottom: 88px;
+
+    .favorite-product {
+      text-decoration: none;
+
+      img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 8px;
+      }
+      .product-name {
+        color: $black;
+        font-family: Cormorant Garamond;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: -0.242px;
+      }
+      .product-price {
+        color: $black;
+        font-family: Cormorant Garamond;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: -0.242px;
+        margin-bottom: 14px;
+      }
+    }
+  }
+
+  .cart-products {
+    width: 100%;
+    .cart-product {
+      text-decoration: none;
+      margin-bottom: 40px;
+
+      img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 8px;
+      }
+      .product-name {
+        color: $black;
+        font-family: Cormorant Garamond;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: -0.242px;
+      }
+      .product-price {
+        color: $black;
+        font-family: Cormorant Garamond;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: -0.242px;
+        margin-bottom: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "../../style/colors.scss";
+
+.brand-page-main-container {
+  padding: 0px 30px;
+
+  .brand-image {
+    margin-bottom: 16.42px;
+    width: 100%;
+
+    img {
+      height: 311.579px;
+      width: 100%;
+    }
+  }
+
+  .brand-concept-wrapper {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Cormorant Garamond;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    margin-bottom: 16px;
+  }
+
+  .brand-checkout {
+    color: $black;
+    font-family: Cormorant Garamond;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.176px;
+    margin-bottom: 48px;
+  }
+}

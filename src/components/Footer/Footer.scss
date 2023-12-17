@@ -1,0 +1,117 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    #ffdbdb -52.68%,
+    #fdfdfd 68.98%,
+    #fdfdfd 91.87%
+  );
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    .footer-header {
+      color: var(--Black, #232221);
+      font-family: Century;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: -0.242px;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+    .footer-txt {
+      color: var(--Dark-grey, #666560);
+      font-family: Cormorant Garamond;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: -0.22px;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+    .registration {
+      display: flex;
+      flex-direction: column;
+    }
+    #e-mail {
+      color: var(--Dark-grey, #666560);
+      font-family: Cormorant Garamond;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: -0.22px;
+      text-align: left;
+      margin-bottom: 8px;
+    }
+    .e-mail {
+      width: 300px;
+
+      height: 51px;
+      flex-shrink: 0;
+      border-radius: 15px;
+      border: 1.5px solid var(--Light-grey, #c2c2c2);
+      box-shadow: 0px 0px 5.4px 0px #c2c2c2;
+      margin-bottom: 25px;
+    }
+
+    .about-section {
+      width: 300px;
+      border-top: 1px solid black;
+      margin-top: 62px;
+      color: var(--Black, #232221);
+text-align: center;
+font-family: Cormorant Garamond;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 30px */
+letter-spacing: -0.22px;
+      ul {
+        list-style-type: none;
+        text-align: left;
+        padding-left: 0;
+        .about-us-link {
+          text-decoration: none;
+        }
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    .link-style{
+      text-decoration: none;
+      color: #232221;
+    }
+    }
+    .social-media {
+      text-align: left;
+      border-top: 22px;
+
+      .follow-us {
+        color: var(--Fancy-olive, #8a8328);
+        font-family: Cormorant Garamond;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: -0.22px;
+      }
+      .social-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

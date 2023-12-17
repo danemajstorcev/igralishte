@@ -1,0 +1,62 @@
+@import "../../style/colors.scss";
+
+.carousel {
+  height: 650px;
+  background: linear-gradient(
+    0deg,
+    #ffdbdb 0.05%,
+    #fdfdfd 93.1%,
+    #fdfdfd 110.6%,
+    #8a8328 152.03%
+  );
+  .slide-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+    img {
+      width: 300px;
+      height: 400px;
+      flex-shrink: 0;
+    }
+    .slide-txt {
+      align-self: flex-start;
+      padding-left: 30px;
+      color: $black;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 33px;
+      letter-spacing: -0.242px;
+      text-decoration: none;
+    }
+    .slide-price {
+      align-self: flex-start;
+      padding-left: 30px;
+      color: $black;
+      text-align: center;
+      font-family: Cormorant Garamond;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 33px;
+      letter-spacing: -0.242px;
+      text-decoration: none;
+    }
+  }
+  .carousel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    img {
+      width: 31px;
+      height: 31px;
+      flex-shrink: 0;
+      color: $black;
+    }
+  }
+}

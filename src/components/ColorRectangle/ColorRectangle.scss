@@ -1,0 +1,80 @@
+@import "../../style/colors.scss";
+
+.color-rectangle {
+  width: 20.137px;
+  height: 20.137px;
+  flex-shrink: 0;
+  border-radius: 3.356px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+
+  input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+
+    &:checked + label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  label {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.maintenance-color-rectangle {
+  background-color: #fdfdfd;
+  border: 0.168px solid $standardBlack;
+  margin: 0px 14px;
+}
+
+.red {
+  background-color: #ff835e;
+}
+
+.orange {
+  background-color: #fbc26c;
+}
+
+.yellow {
+  background-color: #fcff81;
+}
+
+.green {
+  background-color: #b9e5a4;
+}
+
+.blue {
+  background-color: #75d7f0;
+}
+
+.pink {
+  background-color: #ffdbdb;
+}
+
+.purple {
+  background-color: #ea97ff;
+}
+
+.grey {
+  background-color: #d9d9d9;
+}
+
+.white {
+  background-color: $standardWhite;
+  border: 0.168px solid $standardBlack;
+}
+
+.black {
+  background-color: $black;
+}

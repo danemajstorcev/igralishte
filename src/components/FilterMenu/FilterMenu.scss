@@ -1,0 +1,59 @@
+@import "../../style/colors.scss";
+
+.filter-menu-main-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 360px;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1000;
+  overflow-y: scroll;
+  margin-top: 61px;
+
+  .filter-menu-wrapper {
+    width: 360px;
+    height: 1500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+    .checkbox-filters {
+      width: 300px;
+
+      .cancel-btn {
+        display: flex;
+        justify-content: center;
+
+        button {
+          color: $black;
+          text-align: center;
+          font-family: Cormorant Garamond;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%;
+          letter-spacing: -0.22px;
+          text-decoration: underline;
+          margin-bottom: 21px;
+          border: none;
+          background: none;
+        }
+      }
+    }
+
+    .color-filter {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 160px;
+    }
+
+    .filter-menu-buttons {
+      position: fixed;
+      bottom: 25px;
+    }
+  }
+}

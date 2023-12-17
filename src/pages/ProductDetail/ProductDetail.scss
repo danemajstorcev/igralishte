@@ -1,0 +1,57 @@
+@import "../../style/colors.scss";
+
+.product-detail {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+
+  .product-detail-header {
+    color: $black;
+    font-family: Century;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.242px;
+  }
+
+  .product-detail-description {
+    position: relative;
+    margin-bottom: 16px;
+
+    .product-detail-price {
+      color: $black;
+      font-family: Century;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 33px;
+      letter-spacing: -0.242px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+
+    .product-decription-info {
+      color: $black;
+      font-family: Cormorant Garamond;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: -0.176px;
+    }
+
+    .golden-line {
+      width: 300px;
+      height: 0.674px;
+      background: linear-gradient(
+        99deg,
+        #fff0bf -10.68%,
+        #efc990 18.14%,
+        #fdd292 43.87%,
+        rgba(240, 199, 73, 0.42) 81.17%,
+        #d4af37 100%
+      );
+    }
+  }
+}

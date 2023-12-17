@@ -1,0 +1,92 @@
+@import "../../style/colors.scss";
+
+.log-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $lightRibonPink;
+  position: relative;
+
+  .log-in-error {
+    position: absolute;
+    top: 165px;
+    color: red;
+  }
+
+  .main-logo {
+    width: 180px;
+    width: 180px;
+    height: 38.446px;
+    flex-shrink: 0;
+    margin-top: 119px;
+    margin-bottom: 54px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    label {
+      color: $standardBlack;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 8px;
+    }
+    input {
+      width: 220px;
+      height: 40px;
+      border-radius: 8px;
+      border: 1px solid $borderGrey;
+      background: rgba(196, 196, 196, 0);
+      margin-bottom: 16px;
+      &::placeholder {
+        padding-left: 12px;
+      }
+    }
+    p {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 24px 0px 24px 0px;
+    }
+    .forgot-pass {
+      color: $fancyOlive;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration-line: underline;
+      margin-bottom: 24px;
+    }
+    .register-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $black;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 67px;
+      span {
+        color: $fancyOlive;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+      }
+    }
+  }
+}

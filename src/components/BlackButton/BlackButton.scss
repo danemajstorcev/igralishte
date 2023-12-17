@@ -1,0 +1,15 @@
+@import "../../style/colors.scss";
+
+.black-btn {
+  width: 220px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: $black;
+  .button-txt {
+    color: $standardWhite;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+  }
+}

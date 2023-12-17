@@ -1,0 +1,144 @@
+@import "../../style/colors.scss";
+
+.circle {
+  .sparks-img {
+    width: 49.435px;
+    height: 48.927px;
+    flex-shrink: 0;
+    mix-blend-mode: darken;
+    margin-top: 27.49px;
+    margin-bottom: -25px;
+  }
+  .is-new {
+    position: relative;
+    .red-new {
+      position: absolute;
+      color: $redAlert;
+      text-align: center;
+      font-family: Jost;
+      font-size: 16.412px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      letter-spacing: -0.181px;
+      transform: rotate(-15.709deg);
+      left: -70.06px;
+      top: 9px;
+    }
+  }
+
+  .vector-golden {
+    position: absolute;
+    left: -84px;
+    top: 8px;
+  }
+
+  .vector-golden-small {
+    position: absolute;
+    left: -38.19px;
+    top: 14px;
+  }
+
+  &.golden-bg {
+    background: gold !important;
+
+    .red-new {
+      color: red;
+    }
+  }
+  &.pink-bg {
+    background: pink !important;
+  }
+}
+
+.circle-heading {
+  color: $black;
+  text-align: center;
+  font-family: Century;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.22px;
+  width: 129px;
+  margin-top: 22px;
+  margin-bottom: 7.89px;
+}
+
+.circle-description {
+  width: 124.74px;
+  color: $darkGrey;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.132px;
+  margin-bottom: 12.3px;
+}
+
+.arrow {
+  width: 46.198px;
+  height: 15.212px;
+  flex-shrink: 0;
+}
+
+.valentines-gal-colection {
+  position: absolute;
+  bottom: -115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  border: 1.247px solid $black;
+  background: linear-gradient(
+    180deg,
+    #ffdbdb 0.05%,
+    #fdfdfd 93.1%,
+    #fdfdfd 110.6%,
+    #8a8328 152.03%
+  );
+}
+
+.accesorries-and-cosmetics {
+  position: absolute;
+  bottom: -115px;
+  left: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  border: 1.247px solid $black;
+  background: linear-gradient(
+    180deg,
+    #ffdbdb 0.05%,
+    #fdfdfd 93.1%,
+    #fdfdfd 110.6%,
+    #8a8328 152.03%
+  );
+}
+
+.gift-cards-circle {
+  position: absolute;
+  bottom: -115px;
+  left: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  border: 1.247px solid $black;
+  background: linear-gradient(
+    180deg,
+    #ffdbdb 0.05%,
+    #fdfdfd 93.1%,
+    #fdfdfd 110.6%,
+    #8a8328 152.03%
+  );
+}

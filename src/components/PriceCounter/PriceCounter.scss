@@ -1,0 +1,108 @@
+@import "../../style/colors.scss";
+
+.price-counter-main-container {
+  .products-and-price {
+    .delivery {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $fancyOlive;
+      text-align: center;
+      font-family: Century;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.176px;
+    }
+    .discount {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $redAlert;
+      text-align: center;
+      font-family: Century;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.176px;
+      margin: 24px 0px;
+    }
+    .golden-line {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(
+        99deg,
+        #fff0bf -10.68%,
+        #efc990 18.14%,
+        #fdd292 43.87%,
+        rgba(240, 199, 73, 0.42) 81.17%,
+        #d4af37 100%
+      );
+    }
+    .total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 25px 0px;
+      .total-text {
+        color: $standardBlack;
+        text-align: center;
+        font-family: Century;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.22px;
+      }
+      .total-price {
+        color: $black;
+        font-family: Century;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: -0.275px;
+      }
+    }
+    .continue-or-delete {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      .continue-button {
+        width: 155.635px;
+        height: 41.098px;
+        border-radius: 12.127px;
+        border: 1.213px solid $lightGrey;
+        background: var(
+          --Gold-gradient,
+          linear-gradient(
+            99deg,
+            #fff0bf -10.68%,
+            #efc990 18.14%,
+            #fdd292 43.87%,
+            rgba(240, 199, 73, 0.42) 81.17%,
+            #d4af37 100%
+          )
+        );
+        box-shadow: 0px 0px 3.638px 0px $lightGrey;
+        color: $black;
+        font-family: Century;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.176px;
+      }
+
+      img {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        margin-left: 22.37px;
+      }
+    }
+  }
+}

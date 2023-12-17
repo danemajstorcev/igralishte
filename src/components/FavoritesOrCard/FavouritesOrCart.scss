@@ -1,0 +1,13 @@
+@import "../../style/colors.scss";
+
+.favorites-or-cart {
+  width: 30px;
+  height: 28px;
+  flex-shrink: 0;
+  padding: 5px;
+  border-radius: 6.242px;
+  border: 0.624px solid $lightGrey;
+  background: $white;
+  box-shadow: 0px 0px 1.87248px 0px $lightGrey;
+  margin-bottom: 12px;
+}
