@@ -41,10 +41,13 @@
     }
   }
   .second-section {
-    width: 360px;
+    min-width: 360px;
     height: 650px;
     flex-shrink: 0;
     margin-top: -76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: linear-gradient(
       180deg,
       #ffdbdb 0.05%,

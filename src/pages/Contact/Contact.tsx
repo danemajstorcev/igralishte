@@ -12,7 +12,7 @@ const Contact = () => {
     <div className="contact">
       <Breadcrumbs breadcrumbs={breadcrumbs} />
       <SparksHeading textHeading="Контакт" className="contact" />
-      <img src="pictures/Rectangle 52.png" alt="" />
+      <img className="contact-img" src="pictures/Rectangle 52.png" alt="" />
       <div className="header">Игралиште Дебар Маало</div>
       <div className="description">
         Откриј ги нашите останати модни парчиња и колекции кои ги немаме

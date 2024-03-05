@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  // align-items: center;
   background: linear-gradient(
     0deg,
     #ffdbdb -52.68%,
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    // align-items: center;
     padding-left: 30px;
     padding-right: 30px;
     .footer-header {
@@ -37,6 +37,7 @@
       letter-spacing: -0.22px;
       text-align: left;
       margin-bottom: 30px;
+      // padding: 0 30px
     }
     .registration {
       display: flex;
@@ -54,7 +55,7 @@
       margin-bottom: 8px;
     }
     .e-mail {
-      width: 300px;
+      // width: 300px;
 
       height: 51px;
       flex-shrink: 0;
@@ -65,7 +66,7 @@
     }
 
     .about-section {
-      width: 300px;
+      // width: 300px;
       border-top: 1px solid black;
       margin-top: 62px;
       color: var(--Black, #232221);
@@ -107,7 +108,7 @@ letter-spacing: -0.22px;
       }
       .social-icon {
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         align-items: center;
         margin-top: 12px;
         margin-bottom: 12px;
