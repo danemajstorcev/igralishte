@@ -57,7 +57,9 @@ const SearchBar = ({ onBackButtonClick }: SearchBarProps) => {
               setSearchBrand(e.target.value);
             }}
           />
-          {!searchBrand ? (
+         
+        </div>
+        {!searchBrand ? (
             <img src="/pictures/Group 427319177.png" alt="" />
           ) : (
             <img
@@ -66,7 +68,6 @@ const SearchBar = ({ onBackButtonClick }: SearchBarProps) => {
               onClick={deleteSearchedValue}
             />
           )}
-        </div>
       </div>
       <div className="search-bar-products">
         <ProductList productsPerPage={4} products={filteredProducts} />
